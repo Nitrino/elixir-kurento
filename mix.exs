@@ -7,8 +7,27 @@ defmodule KurentoClient.MixProject do
       version: "0.1.0",
       elixir: "~> 1.8",
       start_permanent: Mix.env() == :prod,
-      deps: deps()
+      deps: deps(),
+      package: package(),
+      description: description(),
+      name: "Kurento Client",
+      source_url: "https://github.com/Nitrino/kurento_client",
     ]
+  end
+
+  defp package do
+    [
+      files: ["lib", "mix.exs", "README.md", "LICENSE*"],
+      maintainers: ["Petr Stepchenko"],
+      licenses: ["MIT"],
+      links: %{"GitHub" => "https://github.com/Nitrino/kurento_client"}
+    ]
+  end
+
+  defp description do
+    """
+    Kurento Media Server Client for Elixir programming language
+    """
   end
 
   # Run "mix help compile.app" to learn about applications.
