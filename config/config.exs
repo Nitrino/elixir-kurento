@@ -10,11 +10,11 @@ use Mix.Config
 
 # You can configure your application as:
 #
-#     config :kurento_client, key: :value
+#     config :kurento, key: :value
 #
 # and access this configuration in your application as:
 #
-#     Application.get_env(:kurento_client, :key)
+#     Application.get_env(:kurento, :key)
 #
 # You can also configure a third-party app:
 #

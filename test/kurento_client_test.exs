@@ -1,8 +1,8 @@
-defmodule KurentoClientTest do
+defmodule KurentoTest do
   use ExUnit.Case
-  doctest KurentoClient
+  doctest Kurento
 
   test "greets the world" do
-    assert KurentoClient.hello() == :world
+    assert Kurento.hello() == :world
   end
 end

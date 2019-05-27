@@ -1,6 +1,6 @@
-defmodule KurentoClient do
+defmodule Kurento do
   @moduledoc """
-  Documentation for KurentoClient.
+  Documentation for Kurento.
   """
 
   @doc """
@@ -8,7 +8,7 @@ defmodule KurentoClient do
 
   ## Examples
 
-      iex> KurentoClient.hello()
+      iex> Kurento.hello()
       :world
 
   """

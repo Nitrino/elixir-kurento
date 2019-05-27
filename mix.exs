@@ -1,9 +1,9 @@
-defmodule KurentoClient.MixProject do
+defmodule Kurento.MixProject do
   use Mix.Project
 
   def project do
     [
-      app: :kurento_client,
+      app: :kurento,
       version: "0.1.0",
       elixir: "~> 1.8",
       start_permanent: Mix.env() == :prod,
@@ -11,7 +11,7 @@ defmodule KurentoClient.MixProject do
       package: package(),
       description: description(),
       name: "Kurento Client",
-      source_url: "https://github.com/Nitrino/kurento_client",
+      source_url: "https://github.com/Nitrino/elixir-kurento",
     ]
   end
 
@@ -20,7 +20,7 @@ defmodule KurentoClient.MixProject do
       files: ["lib", "mix.exs", "README.md", "LICENSE*"],
       maintainers: ["Petr Stepchenko"],
       licenses: ["MIT"],
-      links: %{"GitHub" => "https://github.com/Nitrino/kurento_client"}
+      links: %{"GitHub" => "https://github.com/Nitrino/elixir-kurento"}
     ]
   end
 
